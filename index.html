@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Style for the time input */
+      input[type="time"]::-webkit-calendar-picker-indicator {
+        filter: invert(0.6); /* Change the color of the time icon */
+      }
+      input[type="month"]::-webkit-calendar-picker-indicator {
+        filter: invert(0.6); /* Change the color of the time icon */
+      }
+
+    </style>
+    <title>MediSnap</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
